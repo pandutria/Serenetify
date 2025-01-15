@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F0F0"
+    tools:context=".feature.quotes.WelcomeQuotesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/img_27"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="35dp"/>
+
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/img_34"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Welcome to QuoteCare"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="24sp"
+        android:textColor="@color/primary"
+        android:layout_marginTop="80dp"/>
+    
+    <TextView
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Where every word inspires healing, mental health and is filled with hope. Live life with good mental health and suggestions"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#464646"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Start"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:layout_marginTop="235dp"
+        android:textAllCaps="false"
+        android:background="@drawable/bkg_btn_chat_admin"/>
+
+</LinearLayout>

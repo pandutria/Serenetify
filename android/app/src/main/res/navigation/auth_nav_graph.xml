@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onboardFragment">
+
+    <fragment
+        android:id="@+id/onboardFragment"
+        android:name="com.example.dinus.authAndOnBoarding.OnBoardingFragment"
+        android:label="onboarding"
+        tools:layout="@layout/fragment_on_boarding">
+
+        <action
+            android:id="@+id/action_onboarding_to_masuk"
+            app:destination="@id/masukFragment"
+            app:enterAnim="@anim/slide_in_bottom"
+            app:exitAnim="@anim/slide_out_top"
+            app:popEnterAnim="@anim/slide_in_top"/>
+
+        <action
+            android:id="@+id/action_onboarding_to_daftar"
+            app:destination="@id/daftarFragment"
+            app:enterAnim="@anim/slide_in_bottom"
+            app:exitAnim="@anim/slide_out_top"
+            app:popEnterAnim="@anim/slide_in_top"
+            />
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/daftarFragment"
+        android:name="com.example.dinus.authAndOnBoarding.DaftarFragment"
+        android:label="Daftar"
+        tools:layout="@layout/fragment_daftar">
+        <action
+            android:id="@+id/action_daftar_to_masuk"
+            app:destination="@id/masukFragment"
+
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/masukFragment"
+        android:name="com.example.dinus.authAndOnBoarding.MasukFragment"
+        android:label="Masuk"
+        tools:layout="@layout/fragment_masuk" >
+        <action
+            android:id="@+id/action_masuk_to_daftar"
+            app:destination="@id/daftarFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+
+        <action
+            android:id="@+id/action_masuk_to_main"
+            app:destination="@id/mainActivity"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+    </fragment>
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.dinus.MainActivity"
+        android:label="MainActivity"
+        tools:layout="@layout/activity_main"/>
+
+
+
+</navigation>

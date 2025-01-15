@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:text="Tahap 5 - Mengadopsi Gaya Hidup Sehat dan Produktif"
+        android:textColor="@color/primary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Tugas untuk membantu mengadopsi kebiasaan sehat dan produktif dalam aktivitas harian Anda."
+        android:textAlignment="center"
+        android:textColor="#878787"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Buat Jadwal Harian: Rancang jadwal harian dengan aktivitas sehat dan produktif."
+        android:textColor="#464646"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:text="Latihan Fisik: Lakukan aktivitas fisik ringan, seperti yoga atau jalan kaki."
+        android:textColor="#464646"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:text="Pantau Pola Tidur: Catat waktu tidur dan bangun selama seminggu."
+        android:textColor="#464646"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:text="Makan Sehat: Ikuti panduan makan sehat yang disediakan aplikasi."
+        android:textColor="#464646"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="10dp"
+        android:text="Refleksi Mingguan: Tuliskan pencapaian dan hal yang ingin ditingkatkan di minggu berikutnya."
+        android:textColor="#464646"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/bkg_btn_chat_doctor"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

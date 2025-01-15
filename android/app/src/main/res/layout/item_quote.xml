@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/bkg_item_quote">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        >
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="25dp"
+            android:background="@drawable/bkg_cirlceimage_quote"
+            android:layout_height="25dp"
+            android:src="@drawable/img_36"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azkiya Khalilah"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19 minutes ago"
+                android:textSize="7sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#878787"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:text="You are stronger than you think, and braver than you believe"
+        android:textSize="12sp"
+        android:fontFamily="@font/ptsans_regular"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvPencipta"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="- Winnie the Pooh -"
+        android:textSize="10sp"
+        android:fontFamily="@font/ptsans_regular"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

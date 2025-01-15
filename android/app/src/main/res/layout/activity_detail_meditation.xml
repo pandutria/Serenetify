@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".feature.video.DetailVideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/img_27"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation Detail"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="35dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/exo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                app:resize_mode="zoom"/>
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/primary"
+                android:justificationMode="inter_word"
+                android:text="Pentingnya Jaga Kesehatan Mental Bagi Remaja"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Video ini membahas pentingnya menjaga kesehatan mental bagi remaja di tengah tekanan akademik, pergaulan, dan perubahan emosional yang mereka alami. Dalam video ini, Anda akan menemukan informasi mengenai tanda-tanda awal gangguan kesehatan mental, tips untuk menjaga keseimbangan emosional, dan cara mengelola stres secara efektif. Video ini juga memberikan panduan praktis tentang bagaimana membangun pola pikir positif, pentingnya komunikasi dengan orang tua atau teman, serta kapan harus mencari bantuan profesional. Dengan bahasa yang ringan dan mudah dipahami, video ini dirancang untuk memberikan wawasan penting kepada remaja agar lebih peduli terhadap kesehatan mental mereka dan mampu menghadapi tantangan kehidupan dengan lebih baik."
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#878787"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/tvSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="#464646"
+                android:layout_marginTop="20dp"
+                android:text="Youtube : UNIVERSITAS MUHAMMADIYAH GOMBONG"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

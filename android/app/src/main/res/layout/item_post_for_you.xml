@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bkg_item_post_for_you"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_url"
+            android:layout_width="32dp"
+            android:scaleType="centerCrop"
+            android:layout_height="32dp"
+            android:background="@drawable/bkg_cirlceimage_quote"
+            android:src="@drawable/img_56"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azkiya Khalilah"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12sp"
+                android:textColor="#1C1C1C"/>
+
+            <TextView
+                android:id="@+id/tvMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 minutes ago"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="8sp"
+                android:textColor="#878787"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="253dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="6dp">
+
+        <ImageView
+            android:id="@+id/img_url"
+            android:layout_width="253dp"
+            android:scaleType="centerCrop"
+            android:layout_height="247dp"
+            android:src="@drawable/img_56"
+            android:clipToOutline="true"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="12sp"
+        android:textColor="#1C1C1C"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:text="Today is a reminder to take care of ourselves. Mental health matters, and we all deserve to feel happy and healthy. #MentalHealthDay"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F0F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/img_27"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recovery Plan"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="35dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="385dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="-55dp"
+        android:src="@drawable/img_53"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome to the Recovery Plan Program. This program is designed to help you through the online gambling addiction recovery process in a structured manner through 5 main stages with specific tasks at each stage. Each task is designed to strengthen motivation, foster healthy habits, and maintain commitment to keep you on the road to recovery. Honesty is the main key to your success, so do each task as honestly as possible, both to yourself and in reporting progress. Honestly, you will get the most benefit from this program. Let's start this journey with a full commitment to change for the better—you are not alone, and we are ready to support you"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_marginTop="-10dp"
+        android:justificationMode="inter_word"
+        android:textColor="#464646"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Start"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="false"
+        android:background="@drawable/bkg_btn_chat_admin"/>
+
+</LinearLayout>

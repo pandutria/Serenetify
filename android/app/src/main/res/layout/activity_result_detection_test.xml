@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F0F0F0"
+    tools:context=".feature.detectionTest.ResultDetectionTestActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/img_62"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="40dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Points : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#1C1C1C"/>
+
+        <TextView
+            android:id="@+id/tvTotalPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/primary"/>
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Risk Level : "
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#1C1C1C"/>
+
+        <TextView
+            android:id="@+id/tvRiskLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/primary"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#464646"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="desc"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Back to Home"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/bkg_btn_back_to_home_detection"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConsultation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultation"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/primary"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/bkg_btn_consultation_detection_test"/>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".feature.recovery.RecoveryPlanDoneActivity">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/img_54"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hooray, You Did It"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/primary"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy! You have successfully completed all the stages to change your mindset and lifestyle to be healthier and more productive. From recognizing negative habits, building a positive mindset, to adopting better habits in your daily life, all these steps will lead you to greater well-being. Remain committed to maintaining these positive changes, and remember that every small step brings you closer to your goals. You deserve to be proud of this accomplishment. Stay enthusiastic in your journey towards a healthier and happier life"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#464646"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnExit"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Exit"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:background="@drawable/bkg_btn_chat_admin"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "386583606318",
+    "firebase_url": "https://dinus-eecd8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dinus-eecd8",
+    "storage_bucket": "dinus-eecd8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386583606318:android:936026f1ba836092875bbf",
+        "android_client_info": {
+          "package_name": "com.example.dinus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6pxFG-F9iDN2yH2PZroZkqjQkFqFAT60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

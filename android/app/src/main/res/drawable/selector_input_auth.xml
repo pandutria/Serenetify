@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Kondisi ketika EditText tidak dipilih -->
+    <item android:drawable="@drawable/bkg_input_auth" android:state_focused="false"/>
+    <!-- Kondisi ketika EditText dipilih -->
+    <item android:drawable="@drawable/bkg_input_auth_selected" android:state_focused="true"/>
+</selector>

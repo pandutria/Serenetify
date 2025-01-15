@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="@color/primary"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal"
+        android:text="Welcome Back You’ve Been Missed!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="357dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/selector_input_auth"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#626262"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/rtPassword"
+        android:layout_width="357dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_input_auth"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#626262"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvLupaKataSandi"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppins_semibolditalic"
+        android:gravity="end"
+        android:text="Forgot Your Password?"
+        android:textColor="@color/primary"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/loadingBar"
+            android:layout_width="357dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="90dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/primary"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignIn"
+            android:layout_width="357dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/bkg_btn_auth"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#898989" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Or With"
+            android:textColor="#898989"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#898989" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/img_1" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/img_2" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/img_3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Don't have an account yet?"
+            android:textColor="#878787"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/poppins_semibolditalic"
+            android:text="Sign Up"
+            android:textColor="@color/primary"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+        android:id="@+id/tvSenderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pandu Adyatama"
+        android:textColor="#878787"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/tvMessageReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message sent senttsentsentsentsentsentsentsentsents"
+        android:textColor="@color/white"
+        android:maxWidth="250dp"
+        android:background="@drawable/bkg_item_anonymous_chat_received"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="15sp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:gravity="start"
+        android:paddingLeft="15dp"
+        android:textAlignment="textStart"/>
+
+</LinearLayout>

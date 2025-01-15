@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits of Employee Counseling, Increase Work Productivity"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_semibold"/>
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee counseling helps reduce stress, improve well-being, and boost productivity. Employee counseling helps reduce stress, improve well-being, and boost productivity.Employee counseling helps reduce stress, improve well-being, and boost productivity."
+            android:textColor="#A5A5A5"
+            android:textSize="10sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:fontFamily="@font/ptsans_regular"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 Hour ago"
+            android:textColor="#464646"
+            android:textSize="8sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_semibold"/>
+        
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="115dp"
+        android:layout_height="85dp"
+        app:cardCornerRadius="5dp">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_20"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

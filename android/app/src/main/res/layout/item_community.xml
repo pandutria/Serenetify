@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="159dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bkg_item_community"
+    android:gravity="center_horizontal"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_url"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="@drawable/bkg_img_community"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_56" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo_url"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/bkg_cirlceimage_quote"
+        android:layout_marginTop="-21dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Youth Grow"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Grow Together"
+        android:textColor="#A5A5A5"
+        android:textSize="8sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnJoin"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bkg_btn_chat_community"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Join"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

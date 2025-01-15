@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".authAndOnBoarding.OnBoardingFragment">
+    
+    <ImageView
+        android:layout_width="336dp"
+        android:layout_height="336dp"
+        android:src="@drawable/img_4"/>
+
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="Protect Your Mental Health Find Peace Within Yourself"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/primary"
+        android:textAlignment="center"
+        android:layout_marginTop="33dp"/>
+    
+    <TextView
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:text="Explore A Person's Mental Health in Apps."
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="135dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="145dp"
+            android:layout_height="62dp"
+            android:background="@drawable/bkg_btn_onboarding"
+            android:text="Login"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginRight="34dp"
+            />
+        
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="20sp"
+            android:layout_marginLeft="34dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

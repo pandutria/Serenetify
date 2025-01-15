@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img_77"
+        android:label="Serenetify"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/img_77"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DINUS"
+        tools:targetApi="31">
+        <activity
+            android:name=".authAndOnBoarding.SplashScreenActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".feature.moodDetection.ResultMoodDetectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.moodDetection.MoodDetectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.moodDetection.WelcomeMoodDetectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.meditation.MeditationCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.meditation.DetailMeditationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.meditation.MeditationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.community.ChatCommunityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.meditation.WelcomeMeditationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.RecoveryPlanDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.RecoveryPlan5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.RecoveryPlan4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.RecoveryPlan3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.RecoveryPlan2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.RecoveryPlan1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.WarningRecoveryPlanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.recovery.WelcomeRecoveryPlanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.detectionTest.WelcomeDetectionTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.consultation.ChatDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.anonymousChat.WelcomeAnonymousChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.event.WelcomeEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.music.DetailMusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.music.MusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.music.WelcomeMusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.quotes.QuoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.quotes.WelcomeQuotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.video.DetailVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.article.DetailArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.event.ChatAdminEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.event.DetailEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.event.EventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.anonymousChat.ChatingAnonymousChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.anonymousChat.AnonymousChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.detectionTest.DetectionTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.detectionTest.ResultDetectionTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".authAndOnBoarding.AuthActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
